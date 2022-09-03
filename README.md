@@ -4,7 +4,7 @@ Teachable Machine
 TensorFlow.js
 ------------
 
-This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂<br>
+This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂<br><br>
 Cick image and process image classification models in seconds without single line of code <br>
 Deployed here 👉 [click here](https://teachablemachine-gd.glitch.me)
 
