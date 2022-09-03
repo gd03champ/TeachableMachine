@@ -4,7 +4,8 @@ Teachable Machine
 TensorFlow.js
 ------------
 
-This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂<br><br>
+This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂<br>
+Transfer Learning with MobileNet v3 in TensorFlow.js and saved graph model from TFHub.<br><br>
 Cick image and process image classification models in seconds without single line of code <br>
 Deployed here 👉 [click here](https://teachablemachine-gd.glitch.me)
 
