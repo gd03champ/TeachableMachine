@@ -5,6 +5,7 @@ TensorFlow.js
 ------------
 
 This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂
+Deployed here 👉 [click here](https://teachablemachine-gd.glitch.me)
 
 Project
 ------------
