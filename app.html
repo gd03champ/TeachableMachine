@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Teachable Machine</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Iceland"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <glow> TEACHABLE MACHINE </glow>
+    </div>
+
+    <p>
+      Transfer Learning with MobileNet v3 in TensorFlow.js using saved graph
+      model from TFHub.
+    </p>
+
+    <p id="status">Awaiting TF.js load</p>
+
+    <!-- <center><video id="webcam" autoplay muted></video></center> -->
+
+    <center><div class="loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+
+      <video id="webcam" autoplay muted></video>
+    </div></center>
+
+    <br />
+
+    <center>
+      <con>
+        <button id="enableCam">Enable Webcam</button>
+        <button class="dataCollector" data-1hot="0" data-name="Class 1">
+          Gather Class 1 Data
+        </button>
+        <button class="dataCollector" data-1hot="1" data-name="Class 2">
+          Gather Class 2 Data
+        </button>
+        <button id="train">Train &amp; Predict!</button>
+        <button id="reset">Reset</button>
+      </con>
+    </center>
+    <!-- Import TensorFlow.js library -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.11.0/dist/tf.min.js"
+      type="text/javascript"></script>
+
+    <!-- Import the page's JavaScript to do some stuff -->
+    <script type="module" src="/script.js"></script>
+    
+    <center><glow><foot onclick="window.location.href = 'https://gd03champ.github.io';">GD Project 🚀</foot></glow></center>
+    
+  </body>
+</html>
