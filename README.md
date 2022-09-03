@@ -1,14 +1,12 @@
-TensorFlow.js Boilerplate
+Teachable Machine
 =================
 
-This very simple skeleton simply loads in TensorFlow.js and prints out the version once loaded to the DOM.
+TensorFlow.js
+------------
 
-From these humble beginnings you can do some really great things. 
+This project is an attempt to recreate google's <b>Teachable Machine</b> using `tensorflow.js` 🙂
 
-Feel free to fork this and use it as a quick way to start coding with TensorFlow.js directly or following some other tutorial that needs TensorFlow.js to run.
-
-
-Your Project
+Project
 ------------
 
 ### ← index.html
@@ -32,7 +30,7 @@ Optionally, if you want to include our TF.js visualization library you can do so
 ```HTML
 <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-vis/dist/tfjs-vis.umd.min.js" type="text/javascript"></script>
 ```
-However feel free to remove if you are not using this for visualizing training etc. [More details here](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis).
+Visualizing Training ← [More details here](https://github.com/tensorflow/tfjs/tree/master/tfjs-vis).
 
 ### ← style.css
 
